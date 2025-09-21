@@ -1,4 +1,4 @@
-let musica1 = new Audio('musica.mp3');
+
 // Funciones de navegación entre páginas
 function goToFlowers() {
   window.location.href = "flores.html";
@@ -246,8 +246,7 @@ function addSparkleStyle() {
 // Función para reproducir música suave (opcional)
 
 function playBackgroundMusic() {
-  musica1.play(); // Inicia la reproducción del audio
-}
+
   // Esta función puede ser expandida para incluir música de fondo
   // Por ahora solo añade efectos de sonido en los clics
   const buttons = document.querySelectorAll("button");

@@ -243,7 +243,10 @@ function addSparkleStyle() {
 }
 
 // Función para reproducir música suave (opcional)
-function playBackgroundMusic() {
+function playBackgroundMusic() { 
+  const audio = document.getElementById("musica");
+      audio.play();
+    }
   // Esta función puede ser expandida para incluir música de fondo
   // Por ahora solo añade efectos de sonido en los clics
   const buttons = document.querySelectorAll("button");

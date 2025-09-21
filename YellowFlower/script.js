@@ -1,4 +1,3 @@
-
 // Funciones de navegación entre páginas
 function goToFlowers() {
   window.location.href = "flores.html";

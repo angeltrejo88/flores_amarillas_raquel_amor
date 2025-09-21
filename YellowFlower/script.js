@@ -46,7 +46,7 @@ function typeWriterWelcome() {
 function typeWriter() {
   const messages = [
     "Espero que cada vez que veas una flor amarilla, recuerdes lo especial que eres para mí.",
-    "Que este pequeño detalle llene tu día de la misma felicidad que tú traes al mío.",
+    "Que este pequeño detalle llene tu día de la misma felicidad de la que tú le traes al mío.",
   ];
 
   const element = document.getElementById("typed-message");

@@ -13,7 +13,7 @@ function goHome() {
 
 // Función para efecto de escritura en la página de inicio
 function typeWriterWelcome() {
-  const message = "Tengo un regalo especial para ti";
+  const message = "Tengo un regalo especial para ti Raquel";
   const element = document.getElementById("welcome-typewriter");
   if (!element) return;
 
